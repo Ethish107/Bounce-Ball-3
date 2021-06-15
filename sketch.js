@@ -154,11 +154,8 @@ function draw() {
   //   console.log("gmaeover");
   // }
 //}
-//createCracker();
+
 createEdgeSprites();
-ball.isTouching(crackerGroup,crackerHit);
-  drawSprites();
-  spawnCracker();
   
   fill("black")
   text(mouseX + "  " + mouseY,ball.x + 200,ball.y - 200);
